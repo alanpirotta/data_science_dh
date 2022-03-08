@@ -6,3 +6,4 @@ Trabajo en equipo de contestar rápido una pregunta sobre un dataset sobre alumn
 Explicación de las diferentes etapas del curso.
 
 
+ 
