@@ -46,3 +46,15 @@ Correlación de Pearson es para lineal, la de Spearman sirve para cuando no es l
 
 matriz.T : Sirve para transponer la matriz con Numpy
 
+## Clase 5
+
+Spark o DataBricks tienen muchas similitudes con Pandas
+Los tipos de datos object Pandas son cuando son Strings o mezclas de Strings y otros tipos de datos.
+Hay tipo de índice explícitos (si les ponemos nombre nosotros, por ej si les ponemos nombre a las columnas) e implícitos (automático). El implícito por ejemplo tiene el tipo de dato RangeIndex. Cuando es uno explícito, generalmente es tipo de datos "object".
+- Para índices implícitos, se usa df.iloc[filas, columnas]. No se incluye el último elemento en el slicing
+- Para índices explícitos, se usa df.loc[filas, columnas]. Incluye el último elemento en el slicing  
+
+Sirve las máscaras booleanas para el iloc y el loc.
+Averiguar sobre el garbage collector para eliminar los datos que no se usan más en el código (por ejemplo df que se creó uno desde ese y no se usa más)
+
+shift+tab abre la documentación. También se puede usar ? al final del método y correr la celda.
