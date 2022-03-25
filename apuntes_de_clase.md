@@ -58,3 +58,31 @@ Sirve las máscaras booleanas para el iloc y el loc.
 Averiguar sobre el garbage collector para eliminar los datos que no se usan más en el código (por ejemplo df que se creó uno desde ese y no se usa más)
 
 shift+tab abre la documentación. También se puede usar ? al final del método y correr la celda.
+
+## Clase 6
+
+Espacio muestreal ($\Omega$). TODAS las posibilidades de los resultados de un experimento.  
+Un evento es un espacio más pequeño, parte del espacio muestreal  
+Variable aleatoria: le asignan un valor a cada unidad ($\omega$) del espacio muestreal (lo lleva a un número real)  
+En probabilidades discretas, se puede cuantificar cada opción, en cambio en la contínua no se puede dar la probabilidad de que un evento específico ocurra, se dice que por ejemplo es la probabilidad de medir entre X e Y.  
+Cuando son variables aleatorias discretas independientes, la probabilidad total es el producto de las probabilidades de cada variable  
+Función de distribución va dando la probabilidad acumulada de que ocurra. Siempre estará entre 0 y 1.
+
+- Número combinatorio: Cantidad de resultados x exitosos en n intentos. 
+
+
+### Distribuciones discretas
+- Distribución uniforme: Equiprobable. La probabilidad de X es constante 1/n  
+    Se representa como X ~ unif{x1,x2,x3,x4...}
+- Bernoulli: Dos resultados posibles. éxito probabilidad p, fracaso probabilidad 1-p  
+    p $\in$ (0,1) X ~ Be(p)
+- Binomial: Número de éxitos en una secuencia de n ensayos con probabilidad fija. 
+- Poisson: Cantidad de eventos en un período de tiempo dado. $\lambda$ es un parámetro que define la frecuencia que ocurre el evento, siempre positivo. Se debe poder discretizar el tiempo de tal manera que ocurra un sólo evento en ese tiempo.  
+
+### Distribuiciones contínuas
+- Distribución uniforme: Se dice que tiene una distribución uniforme en el intervalo (x,y). La probabilidad es 1/(b-a)  
+    Función de distribución acumulada es (x-a)/(b-a) en el itnervalo, 0 antes y 1 después
+- Distribución exponencial: Intervalos de tiempos entre eventos en un proceso de Poisson. 
+- Distribución normal: La más utilizada, la siguen por ejemplo los errores en una medición, o incluso las medias de medición de muchos ensayos de las mismas características (ver Teorema central del límite).  
+    Parámetros: Varianza ($\sigma$2) y media ($\mu$)  
+    
