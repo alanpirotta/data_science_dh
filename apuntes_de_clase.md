@@ -91,3 +91,9 @@ Función de distribución va dando la probabilidad acumulada de que ocurra. Siem
 
 `$conda env list` muestra la lista de ambientes, y un asterisco al lado del que está activo
 Si al instalar GeoPandas, te tira el error `$could not find or load spatialindex_c-64.dll` tenés que ir a la consola (dentro del mismo ambiente) y poner `$pip uninstall rtree`
+
+## Clase 8
+
+Clase de repaso
+https://pythontutor.com/visualize.html#mode=edit Útil para ver cada paso de un código de python
+
