@@ -96,4 +96,4 @@ Si al instalar GeoPandas, te tira el error `$could not find or load spatialindex
 
 Clase de repaso
 https://pythontutor.com/visualize.html#mode=edit Útil para ver cada paso de un código de python
-
+array.reshape(1,-1): El -1 completa para llegar a lo necesario para mantener la cantidad de datos. Se puede poner en cualquier lado, y siempre completará
