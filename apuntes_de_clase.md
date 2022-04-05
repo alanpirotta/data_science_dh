@@ -97,3 +97,20 @@ Si al instalar GeoPandas, te tira el error `$could not find or load spatialindex
 Clase de repaso
 https://pythontutor.com/visualize.html#mode=edit Útil para ver cada paso de un código de python
 array.reshape(1,-1): El -1 completa para llegar a lo necesario para mantener la cantidad de datos. Se puede poner en cualquier lado, y siempre completará
+
+##  Clase 9
+EDA
+
+https://www.epochconverter.com/ para convertir de timestamp (unix epoch time) a fecha correctamente.  
+
+5 pasos de limpieza de datos:
+- Asignar tipos de datos correctos. 
+- Estandarizar categorías. mismo nombre para mismo valor, ej: 'ar', 'arg', 'argentina'.
+- Corregir valores erróneos.
+- Completar datos faltantes.
+- Organizar correctamente el dataset. Son útiles las reglas del "tidy data"
+
+**tidy data:**
+- Cada variable es una columna
+- Cada observación es una fila
+- Cada tipo de unidad observacional forma una tabla
