@@ -114,3 +114,8 @@ https://www.epochconverter.com/ para convertir de timestamp (unix epoch time) a 
 - Cada variable es una columna
 - Cada observación es una fila
 - Cada tipo de unidad observacional forma una tabla
+
+## Clase 10
+Visualización con MatplotLib
+
+No tomé apuntes, tengo que repasarla mejor
