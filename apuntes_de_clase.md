@@ -119,3 +119,11 @@ https://www.epochconverter.com/ para convertir de timestamp (unix epoch time) a 
 Visualización con MatplotLib
 
 No tomé apuntes, tengo que repasarla mejor
+
+## Clase 11
+Join con Pandas
+
+`df.pivot_table()` :   Pivot table como en excel, power BI y cualquier otra herramienta de esas. 
+`pd.cut(Series, ['valor_De_corte_1', 'valor_de_corte_2', 'valor_de_corte_3'], labels=['label1','label2'], retbins=True)` : Sirve para cortar en partes una Series, por ejemplo por cada percentil. El retbins te devuelve un segundo objeto con los valores de corte.  
+`pd.qcut(Series, q=4)` : Parte en la cantidad deintervalos que se pase, según los percentiles.  
+**Puede servir para reducir valores, por ejemplo rangos de edades en vez de edades**
