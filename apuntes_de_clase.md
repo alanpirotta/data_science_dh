@@ -132,3 +132,29 @@ Join con Pandas
 DataWrangling y dudas de notebooks prácticas anteriores.
 
 Tomé algunos apuntesdirecto en los .md del repo de "apuntes y modelos".
+
+## Clase 13
+Data Visualization 2
+Bokeh y plotly
+
+from bokeh.paletter import set2
+set2 es un diccionario con varios sets de colores. (el 2 es un ejemplo)
+
+Las notebooks se pueden exportar como html, exportando también los gráficos y después embebiendolo en una página.   
+
+En los jupyter notebooks se pude usar código LaTeX para mostrar ecuaciones por ejemplo. Tengo que investigarlo más.  
+
+Plotly parece más simple y directo de usar que Bokeh.   
+vtk es una librería para gráficos de alto rendimiento, generalmente sirve para gráficos matemáticos complejos, tomografías, etc.
+
+## Clase 14
+TP1 - EDA
+
+`pd.set_option("display.max_colwidth",200)` : Sirve para cambiar el ancho máximo de columna y poder ver mejor las de String
+
+## Clase 16
+Estadística inferencial - Pruebas de hipótesis
+
+Definir que p-valor es el que rechazará nuestra hipótesis nula. **NO** es la probabilidad de que sea cierta.  
+Nivel de significancia (Alfa): Es el error que se está aceptando del extremo de la gaussiana, en este rango se rechaza la hipotesis. 5% sería Z=1.645 por ejemplo si sólo se considera un lado, sino se divide el porcentaje en los dos extremos.  
+El a/b test me parece muy útil para sacar conclusiones de negocio, averiguar más a futuro.   
