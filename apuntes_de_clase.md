@@ -158,3 +158,8 @@ Estadística inferencial - Pruebas de hipótesis
 Definir que p-valor es el que rechazará nuestra hipótesis nula. **NO** es la probabilidad de que sea cierta.  
 Nivel de significancia (Alfa): Es el error que se está aceptando del extremo de la gaussiana, en este rango se rechaza la hipotesis. 5% sería Z=1.645 por ejemplo si sólo se considera un lado, sino se divide el porcentaje en los dos extremos.  
 El a/b test me parece muy útil para sacar conclusiones de negocio, averiguar más a futuro.   
+
+## Clase 17
+Intro a machine learning
+
+**plot_tree** sirve para mostrar como es el árbol con las reglas que definió el modelo. Debe haber funciones similares para los demás modelos de árboles
